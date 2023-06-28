@@ -1,12 +1,13 @@
-from symbol_lib import *
-from accquire_functions import *
+from symb_LIB.symbol_lib import *
+from INDICATORS import *
 import json
 import datetime
 
 
+
+#<-------------------------------ACCURACY-TESTING------------------------------->
 testing_symbols = [AAPL,TSLA,IBM,PFE]
 testing_frames = ['1W','1d','1h']
-
 
 for symb in testing_symbols:
     for frm in testing_frames:
